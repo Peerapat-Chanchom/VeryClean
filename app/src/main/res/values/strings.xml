@@ -15,6 +15,7 @@
     <string name="sign_up">Sign Up</string>
     <string name="already_have_account">Already have an account?</string>
     <string name="login">Log In</string>
+    <string name="skip">Skip login</string>
 
     <!-- Login Strings -->
     <string name="welcome">VeryClean</string>
