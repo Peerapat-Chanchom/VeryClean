@@ -1,38 +1,37 @@
 package com.example.veryclean.ui.home
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+import android.widget.ImageView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import com.example.veryclean.databinding.FragmentHomeBinding
+import com.example.veryclean.R
+import com.example.veryclean.bkBathActivity
+import com.example.veryclean.bkRoomActivity
 
 class HomeFragment : Fragment() {
-
-    private var _binding: FragmentHomeBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-    private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_home, container, false)
 
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        val root: View = binding.root
+        val clean1: ImageView = root.findViewById(R.id.clean1)
+        val clean2: ImageView = root.findViewById(R.id.clean2)
+
+        clean1.setOnClickListener {
+            val intent = Intent(requireContext(), bkRoomActivity::class.java)
+            startActivity(intent)
+        }
+        clean2.setOnClickListener {
+            val intent = Intent(requireContext(), bkBathActivity::class.java)
+            startActivity(intent)
+        }
 
         return root
-    }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
     }
 }
