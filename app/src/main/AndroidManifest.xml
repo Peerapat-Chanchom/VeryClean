@@ -28,7 +28,14 @@
         <activity
             android:name=".MainActivity"
             android:exported="false">
-
+        </activity>
+        <activity
+            android:name=".bkRoomActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".bkBathActivity"
+            android:exported="false">
         </activity>
     </application>
 

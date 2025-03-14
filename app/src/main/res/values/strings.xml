@@ -15,6 +15,7 @@
     <string name="sign_up">Sign Up</string>
     <string name="already_have_account">Already have an account?</string>
     <string name="login">Log In</string>
+    <string name="skip">Skip login</string>
 
     <!-- Login Strings -->
     <string name="welcome">VeryClean</string>
@@ -28,5 +29,15 @@
     <string name="login_with_google">Login with Google</string>
     <string name="login_with_facebook">Login with Facebook</string>
     <string name="login_with_twitter">Login with Twitter</string>
+    <string name="types">ห้องทั่วไป</string>
+    <string name="types1">ห้องน้ำ</string>
+    <string name="Des">รายละเอียด</string>
+    <string name="price">300 บาท/ชั่วโมง</string>
+    <string name="price1">200 บาท/ชั่วโมง</string>
+
+    <string name="Describe">บริการทำความสะอาดห้องทั่วไปโดยแม่บ้านมืออาชีพ ครอบคลุมการกวาด ถูพื้น ดูดฝุ่น เช็ดทำความสะอาดเฟอร์นิเจอร์ กระจก และบานประตู
+        พร้อมจัดเก็บขยะและจัดระเบียบห้องให้น่าอยู่ เราใช้อุปกรณ์และน้ำยาคุณภาพดี ปลอดภัยต่อสุขภาพและเป็นมิตรต่อสิ่งแวดล้อม เพื่อให้คุณมั่นใจในความสะอาดและความสะดวกสบาย</string>
+    <string name="DescribeBath">บริการทำความสะอาดห้องน้ำโดยแม่บ้านมืออาชีพ ครอบคลุมการขัดล้างพื้นและผนัง กำจัดคราบสกปรก เชื้อรา และคราบหินปูน ทำความสะอาดอ่างล้างหน้า
+        โถสุขภัณฑ์ และกระจก พร้อมฆ่าเชื้อโรคและกำจัดกลิ่นไม่พึงประสงค์ เราใช้น้ำยาคุณภาพดี ปลอดภัยต่อสุขภาพและเป็นมิตรต่อสิ่งแวดล้อม เพื่อให้ห้องน้ำของคุณสะอาด สดชื่น และน่าใช้งาน</string>
 
 </resources>

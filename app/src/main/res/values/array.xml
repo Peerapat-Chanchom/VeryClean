@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Maid">
+        <item>ปาลิตา คงพันธุ์</item>
+        <item>เกศริน ทองสุข</item>
+        <item>สุดารัตน์ นาคะ</item>
+    </string-array>
+    <string-array name="hr">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    
+</resources>
