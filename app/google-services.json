@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "197986254454",
+    "project_id": "veryclean-aedb2",
+    "storage_bucket": "veryclean-aedb2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197986254454:android:f07c42058fba3c9559a957",
+        "android_client_info": {
+          "package_name": "com.example.veryclean"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAB8UFm8p-o8zzNbea-YcA2PC9e9y4070"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
