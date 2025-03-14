@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">VeryClean</string>
+
     <string name="title_home">หน้าหลัก</string>
     <string name="title_dashboard">ข้อมูลการจอง</string>
     <string name="title_notifications">โปรไฟล์</string>
+
 </resources>

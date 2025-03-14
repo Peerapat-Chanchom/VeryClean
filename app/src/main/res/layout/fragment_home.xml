@@ -157,44 +157,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.031" />
-
-    <TextView
-        android:id="@+id/textdetail2"
-        android:layout_width="180dp"
-        android:layout_height="60dp"
-        android:text="ขัดล้างพื้น กำจัดคราบสุขภัณฑ์ ทำความสะอาดกระจก และฆ่าเชื้อโรค"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.042" />
-
-    <TextView
-        android:id="@+id/textmaid2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ปาลิตา คงพันธุ์"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.121"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/maid1"
-        app:layout_constraintVertical_bias="0.181" />
-
-    <ImageView
-        android:id="@+id/clean2"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:src="@drawable/p2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.904"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.031" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
