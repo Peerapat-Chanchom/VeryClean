@@ -66,7 +66,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.075" />
+        app:layout_constraintVertical_bias="0.079" />
 
     <TextView
         android:id="@+id/textView7"
@@ -79,7 +79,8 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.112" />
+        app:layout_constraintVertical_bias="0.112"
+        tools:ignore="TextSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -129,7 +130,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.351" />
+        app:layout_constraintVertical_bias="0.351"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView11"
@@ -169,7 +171,8 @@
         app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="@+id/view3"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.08" />
+        app:layout_constraintVertical_bias="0.08"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView16"
@@ -182,7 +185,8 @@
         app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
         app:layout_constraintTop_toBottomOf="@+id/textView14"
-        app:layout_constraintVertical_bias="0.164" />
+        app:layout_constraintVertical_bias="0.164"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView18"
@@ -195,7 +199,8 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.806" />
+        app:layout_constraintVertical_bias="0.806"
+        tools:ignore="TextSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView7"
