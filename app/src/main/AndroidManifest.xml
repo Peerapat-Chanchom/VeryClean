@@ -37,6 +37,18 @@
             android:name=".bkBathActivity"
             android:exported="false">
         </activity>
+        <activity
+            android:name=".payActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".bankActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".finishActivity"
+            android:exported="false">
+        </activity>
     </application>
 
 </manifest>

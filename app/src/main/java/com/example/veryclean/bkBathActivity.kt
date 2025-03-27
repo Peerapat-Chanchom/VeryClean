@@ -2,6 +2,7 @@ package com.example.veryclean
 
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -17,6 +18,7 @@ class bkBathActivity : AppCompatActivity() {
         // ปุ่มเลือกวันที่และเวลา
         val btnSelectDate1: Button = findViewById(R.id.btn_select_date1)
         val btnSelectTime1: Button = findViewById(R.id.btn_select_time1)
+        val buttonBath: Button = findViewById(R.id.buttonBath)
 
         // TextView สำหรับแสดงวันที่และเวลา
         val txtSelectedDate1: TextView = findViewById(R.id.txt_selected_date1)
@@ -49,6 +51,10 @@ class bkBathActivity : AppCompatActivity() {
             }, hour, minute, true)
 
             timePickerDialog.show()
+        }
+        buttonBath.setOnClickListener{
+            val intent = Intent(this, payActivity::class.java) // เปลี่ยนชื่อ Activity ตามต้องการ
+            startActivity(intent)
         }
     }
 }
