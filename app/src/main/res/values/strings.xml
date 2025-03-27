@@ -6,15 +6,15 @@
     <string name="title_notifications">โปรไฟล์</string>
 
     <string name="app_logo">Application Logo</string>
-    <string name="create_account">Create Account</string>
-    <string name="full_name">Full Name</string>
-    <string name="email">Email Address</string>
-    <string name="password">Password</string>
-    <string name="confirm_password">Confirm Password</string>
-    <string name="terms_agreement">I agree to the Terms and Conditions</string>
-    <string name="sign_up">Sign Up</string>
-    <string name="already_have_account">Already have an account?</string>
-    <string name="login">Log In</string>
+    <string name="create_account">สร้างบัญชีใหม่</string>
+    <string name="full_name">ชื่อ - นามสกุล</string>
+    <string name="email">อีเมล</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="confirm_password">ยืนยันรหัสผ่าน</string>
+    <string name="terms_agreement">ตกลงและยอมรับตามเงื่อนไข</string>
+    <string name="sign_up">สร้างบัญชี</string>
+    <string name="already_have_account">มีบัญชีอยู่แล้ว</string>
+    <string name="login">เข้าสู่ระบบ</string>
     <string name="skip">Skip login</string>
 
     <!-- Login Strings -->
@@ -23,7 +23,7 @@
     <string name="forgot_password">Forgot Password?</string>
     <string name="remember_me">Remember Me</string>
     <string name="or">OR</string>
-    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="dont_have_account">คุณยังไม่มีบัญชีใช่ไหม?</string>
 
     <!-- Social Login -->
     <string name="login_with_google">Login with Google</string>
