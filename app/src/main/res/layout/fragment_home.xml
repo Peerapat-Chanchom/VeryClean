@@ -162,7 +162,7 @@
 
     <ImageView
         android:id="@+id/clean1"
-        android:layout_width="130dp"
+        android:layout_width="160dp"
         android:layout_height="130dp"
         android:src="@drawable/p3"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -186,7 +186,7 @@
 
     <ImageView
         android:id="@+id/clean2"
-        android:layout_width="130dp"
+        android:layout_width="160dp"
         android:layout_height="130dp"
         android:src="@drawable/p2"
         app:layout_constraintBottom_toBottomOf="parent"

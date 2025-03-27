@@ -228,7 +228,7 @@
         app:srcCompat="@drawable/back" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonNEXT"
         android:layout_width="250dp"
         android:layout_height="70dp"
         android:text="ชำระเงินหน้าถัดไป"

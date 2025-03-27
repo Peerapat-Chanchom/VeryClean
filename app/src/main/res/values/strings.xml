@@ -15,7 +15,7 @@
     <string name="sign_up">สร้างบัญชี</string>
     <string name="already_have_account">มีบัญชีอยู่แล้ว</string>
     <string name="login">เข้าสู่ระบบ</string>
-    <string name="skip">Skip login</string>
+    <string name="skip">ข้ามการลงชื่อเข้าใช้</string>
 
     <!-- Login Strings -->
     <string name="welcome">VeryClean</string>
@@ -26,9 +26,6 @@
     <string name="dont_have_account">คุณยังไม่มีบัญชีใช่ไหม?</string>
 
     <!-- Social Login -->
-    <string name="login_with_google">Login with Google</string>
-    <string name="login_with_facebook">Login with Facebook</string>
-    <string name="login_with_twitter">Login with Twitter</string>
     <string name="types">ห้องทั่วไป</string>
     <string name="types1">ห้องน้ำ</string>
     <string name="Des">รายละเอียด</string>

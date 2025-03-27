@@ -83,8 +83,8 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="173dp"
-        android:layout_height="166dp"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
         android:src="@drawable/p3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -141,7 +141,7 @@
         app:layout_constraintVertical_bias="0.67" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonRoom"
         android:layout_width="137dp"
         android:layout_height="51dp"
         android:text="ต่อไป"

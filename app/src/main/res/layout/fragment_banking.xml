@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonsss"
         android:layout_width="250dp"
         android:layout_height="70dp"
         android:text="ยืนยัน"
@@ -17,7 +17,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <TextView
         android:id="@+id/textView33"
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.018" />
+        app:layout_constraintVertical_bias="0.104" />
 
     <TextView
         android:id="@+id/textView34"
@@ -40,10 +40,10 @@
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintHorizontal_bias="0.136"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099" />
+        app:layout_constraintVertical_bias="0.166" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -67,45 +67,7 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.199" />
-
-    <View
-        android:id="@+id/view7"
-        android:layout_width="340dp"
-        android:layout_height="100dp"
-        android:background="@drawable/rounded_corners"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357" />
-
-    <View
-        android:id="@+id/view8"
-        android:layout_width="340dp"
-        android:layout_height="100dp"
-        android:background="@drawable/rounded_corners"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.519" />
-
-    <TextView
-        android:id="@+id/textView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:text="โมบายแบงก์กิ้ง"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view7"
-        app:layout_constraintEnd_toEndOf="@+id/view7"
-        app:layout_constraintHorizontal_bias="0.013"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view7"
-        app:layout_constraintVertical_bias="0.592" />
+        app:layout_constraintVertical_bias="0.24" />
 
     <TextView
         android:id="@+id/textView36"
@@ -118,20 +80,7 @@
         app:layout_constraintHorizontal_bias="0.057"
         app:layout_constraintStart_toEndOf="@+id/imageView14"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.225" />
-
-    <TextView
-        android:id="@+id/textView37"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="บัตรเครดิต/บัครเดบิต"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view8"
-        app:layout_constraintEnd_toEndOf="@+id/view8"
-        app:layout_constraintHorizontal_bias="0.457"
-        app:layout_constraintStart_toStartOf="@+id/view8"
-        app:layout_constraintTop_toTopOf="@+id/view8"
-        app:layout_constraintVertical_bias="0.592" />
+        app:layout_constraintVertical_bias="0.262" />
 
     <ImageView
         android:id="@+id/imageView14"
@@ -145,6 +94,32 @@
         app:layout_constraintVertical_bias="0.52"
         app:srcCompat="@drawable/qrpayment" />
 
+    <View
+        android:id="@+id/view7"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:text="โมบายแบงก์กิ้ง"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view7"
+        app:layout_constraintEnd_toEndOf="@+id/view7"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view7"
+        app:layout_constraintVertical_bias="0.578" />
+
     <ImageView
         android:id="@+id/imageView19"
         android:layout_width="50dp"
@@ -157,6 +132,60 @@
         app:layout_constraintVertical_bias="0.64"
         app:srcCompat="@drawable/mobile" />
 
+    <View
+        android:id="@+id/view8"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPayment"
+        android:layout_width="79dp"
+        android:layout_height="443dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361">
+
+
+        <RadioButton
+            android:id="@+id/radioButtonQR"
+            android:layout_width="wrap_content"
+            android:layout_height="154dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="148dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCard"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="บัตรเครดิต/บัครเดบิต"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view8"
+        app:layout_constraintEnd_toEndOf="@+id/view8"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="@+id/view8"
+        app:layout_constraintTop_toTopOf="@+id/view8"
+        app:layout_constraintVertical_bias="0.605" />
+
     <ImageView
         android:id="@+id/imageView20"
         android:layout_width="50dp"
@@ -166,40 +195,8 @@
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="@+id/view8"
         app:layout_constraintTop_toTopOf="@+id/view8"
-        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintVertical_bias="0.62"
         app:srcCompat="@drawable/credit" />
 
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view8"
-        app:layout_constraintEnd_toEndOf="@+id/view8"
-        app:layout_constraintHorizontal_bias="0.63"
-        app:layout_constraintStart_toEndOf="@+id/textView37"
-        app:layout_constraintTop_toTopOf="@+id/view8"
-        app:layout_constraintVertical_bias="0.586" />
-
-    <RadioButton
-        android:id="@+id/radioButton5"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view7"
-        app:layout_constraintEnd_toEndOf="@+id/view7"
-        app:layout_constraintHorizontal_bias="0.803"
-        app:layout_constraintStart_toEndOf="@+id/textView35"
-        app:layout_constraintTop_toTopOf="@+id/view7"
-        app:layout_constraintVertical_bias="0.615" />
-
-    <RadioButton
-        android:id="@+id/radioButton4"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view6"
-        app:layout_constraintEnd_toEndOf="@+id/view6"
-        app:layout_constraintHorizontal_bias="0.789"
-        app:layout_constraintStart_toEndOf="@+id/textView36"
-        app:layout_constraintTop_toTopOf="@+id/view6"
-        app:layout_constraintVertical_bias="0.557" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
