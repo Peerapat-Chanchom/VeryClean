@@ -13,7 +13,7 @@ class bankActivity : AppCompatActivity() {
         val buttonSUB: Button = findViewById(R.id.buttonsss)
 
         buttonSUB.setOnClickListener {
-            val intent = Intent(this, finishActivity::class.java) // เปลี่ยนชื่อ Activity ตามต้องการ
+            val intent = Intent(this, qrActivity::class.java) // เปลี่ยนชื่อ Activity ตามต้องการ
             startActivity(intent)
             finish()
         }
