@@ -53,7 +53,7 @@ class bkRoomActivity : AppCompatActivity() {
             timePickerDialog.show()
         }
      buttonRoom.setOnClickListener{
-         val intent = Intent(this, payActivity::class.java) // เปลี่ยนชื่อ Activity ตามต้องการ
+         val intent = Intent(this, SelectMaidActivity::class.java) // เปลี่ยนชื่อ Activity ตามต้องการ
          startActivity(intent)
      }
     }

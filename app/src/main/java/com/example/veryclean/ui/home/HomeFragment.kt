@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
+import com.example.veryclean.MaidActivity
 import com.example.veryclean.R
 import com.example.veryclean.bkBathActivity
 import com.example.veryclean.bkRoomActivity
@@ -22,6 +23,7 @@ class HomeFragment : Fragment() {
 
         val clean1: ImageView = root.findViewById(R.id.clean1)
         val clean2: ImageView = root.findViewById(R.id.clean2)
+        val maid1: ImageView = root.findViewById(R.id.maid1)
 
         clean1.setOnClickListener {
             val intent = Intent(requireContext(), bkRoomActivity::class.java)
@@ -29,6 +31,10 @@ class HomeFragment : Fragment() {
         }
         clean2.setOnClickListener {
             val intent = Intent(requireContext(), bkBathActivity::class.java)
+            startActivity(intent)
+        }
+        maid1.setOnClickListener {
+            val intent = Intent(requireContext(), MaidActivity::class.java)
             startActivity(intent)
         }
 
