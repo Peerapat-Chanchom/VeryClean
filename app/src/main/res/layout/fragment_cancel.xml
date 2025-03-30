@@ -192,4 +192,18 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextText3"
         app:layout_constraintVertical_bias="0.801" />
 
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="167dp"
+        android:layout_height="52dp"
+        android:text="เสร็จสิ้น"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText5"
+        app:layout_constraintVertical_bias="0.078" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
