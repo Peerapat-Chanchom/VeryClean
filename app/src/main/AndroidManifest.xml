@@ -49,6 +49,14 @@
             android:name=".finishActivity"
             android:exported="false">
         </activity>
+        <activity
+            android:name=".MaidActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".SelectMaidActivity"
+            android:exported="false">
+        </activity>
     </application>
 
 </manifest>

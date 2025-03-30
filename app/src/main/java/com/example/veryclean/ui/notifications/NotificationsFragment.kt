@@ -56,10 +56,7 @@ class NotificationsFragment : Fragment() {
                 datePickerDialog.show()
             }
 
-            // ตั้งค่า Spinner สำหรับเลือกประเทศ
-            val countries = listOf("Thailand", "United States", "Japan", "Germany", "France")
-            val adapter = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_dropdown_item, countries)
-            binding.spinnerCountry.adapter = adapter
+
 
             // บันทึกข้อมูลเมื่อกดปุ่ม Save
             binding.btnSave.setOnClickListener {
@@ -87,7 +84,7 @@ class NotificationsFragment : Fragment() {
         editor.putString("email", binding.editTextText2.text.toString())
         editor.putString("phone", binding.editTextNumber.text.toString())
         editor.putString("dob", binding.etDateOfBirth.text.toString())
-        editor.putString("country", binding.spinnerCountry.selectedItem.toString())
+        editor.putString("where", binding.editTextNumber2.text.toString())
 
         editor.apply()
 
@@ -101,11 +98,9 @@ class NotificationsFragment : Fragment() {
         binding.editTextText2.setText(sharedPreferences.getString("email", ""))
         binding.editTextNumber.setText(sharedPreferences.getString("phone", ""))
         binding.etDateOfBirth.setText(sharedPreferences.getString("dob", ""))
+        binding.editTextNumber2.setText(sharedPreferences.getString("where", "")) // ✅ โหลดที่อยู่
 
-        val savedCountry = sharedPreferences.getString("country", "Thailand")
-        val adapter = binding.spinnerCountry.adapter as? ArrayAdapter<String>
-        val countryIndex = adapter?.getPosition(savedCountry) ?: 0
-        binding.spinnerCountry.setSelection(countryIndex)
+
 
         // โหลดรูปโปรไฟล์
         val profileImagePath = sharedPreferences.getString("profile_image", null)
