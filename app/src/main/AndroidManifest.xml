@@ -69,6 +69,18 @@
             android:name=".cancelActivity"
             android:exported="false">
         </activity>
+        <activity
+            android:name=".MaidMainActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".LoginMaidActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".MaidActivity2"
+            android:exported="false">
+        </activity>
     </application>
 
 </manifest>

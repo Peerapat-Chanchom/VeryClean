@@ -16,6 +16,7 @@ class LoginActivity : AppCompatActivity() {
         val btnLogin = findViewById<Button>(R.id.btn_login)
         val signup = findViewById<TextView>(R.id.tv_signup3)
         val skip1 = findViewById<TextView>(R.id.skip)
+        val skip2 = findViewById<TextView>(R.id.skip2)
 
         btnLogin.setOnClickListener {
             // ไปยัง MainActivity แทนการเปิด Fragment ตรง ๆ
@@ -30,6 +31,11 @@ class LoginActivity : AppCompatActivity() {
         }
         skip1.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        skip2.setOnClickListener {
+            val intent = Intent(this, LoginMaidActivity::class.java)
             startActivity(intent)
             finish()
         }

@@ -14,5 +14,10 @@
         <item>5</item>
         <item>6</item>
     </string-array>
+
+    <string-array name="status">
+        <item>กำลังทำ</item>
+        <item>เสร็จสิ้น</item>
+    </string-array>
     
 </resources>
