@@ -34,7 +34,7 @@
         android:id="@+id/textView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="หมายเลขคำสั่งจอง"
+        android:text="รหัสคำสั่งซื้อ xxxxx"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
